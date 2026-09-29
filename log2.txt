@@ -1,0 +1,89 @@
+Comando: show
+[00:00] Attualmente il sistema ha prodotto 3.500000 kWh e ha consumato 0.000000 kWh. Nello specifico:
+- Il dispositivo 'impianto_fotovoltaico' ha consumato 0.000000 kWh
+- Il dispositivo 'lavatrice' ha consumato 0.000000 kWh
+- Il dispositivo 'lavastoviglie' ha consumato 0.000000 kWh
+- Il dispositivo 'pompa_di_calore+termostato' ha consumato 0.000000 kWh
+- Il dispositivo 'tapparelle_elettriche' ha consumato 0.000000 kWh
+- Il dispositivo 'scaldabagno' ha consumato 0.000000 kWh
+- Il dispositivo 'frigorifero' ha consumato 0.000000 kWh
+- Il dispositivo 'forno_a_microonde' ha consumato 0.000000 kWh
+- Il dispositivo 'asciugatrice' ha consumato 0.000000 kWh
+- Il dispositivo 'televisore' ha consumato 0.000000 kWh
+
+Comando: set time 3:00
+[03:00] L'orario attuale e' 03:00
+Comando: reset time
+[00:00] L'orario attuale e' 00:00
+Comando: set time 4:00
+[04:00] L'orario attuale e' 04:00
+Comando: set lavatrice 7:00
+[04:00] Impostato un timer per il dispositivo a ciclo prefissato 'lavatrice' dalle 07:00.
+Comando: set asciugatrice 7:00
+[04:00] Impostato un timer per il dispositivo a ciclo prefissato 'asciugatrice' dalle 07:00.
+Comando: set impianto_fotovoltaico 11:00 13:00
+[04:00] Impostato un timer per il dispositivo manuale 'impianto_fotovoltaico' dalle 11:00 alle 13:00.
+Comando: set time 7:9
+[07:00] Acceso il dispositivo a ciclo prefissato 'lavatrice' alle 07:00
+[07:00] Acceso il dispositivo a ciclo prefissato 'asciugatrice' alle 07:00
+[07:09] L'orario attuale e' 07:09
+Comando: show
+[07:09] Attualmente il sistema ha prodotto 5.000000 kWh e ha consumato 2.500000 kWh. Nello specifico:
+- Il dispositivo 'impianto_fotovoltaico' ha consumato 0.000000 kWh
+- Il dispositivo 'lavatrice' ha consumato 0.300000 kWh
+- Il dispositivo 'lavastoviglie' ha consumato 0.000000 kWh
+- Il dispositivo 'pompa_di_calore+termostato' ha consumato 0.000000 kWh
+- Il dispositivo 'tapparelle_elettriche' ha consumato 0.000000 kWh
+- Il dispositivo 'scaldabagno' ha consumato 0.000000 kWh
+- Il dispositivo 'frigorifero' ha consumato 0.000000 kWh
+- Il dispositivo 'forno_a_microonde' ha consumato 0.000000 kWh
+- Il dispositivo 'asciugatrice' ha consumato 0.075000 kWh
+- Il dispositivo 'televisore' ha consumato 0.000000 kWh
+
+Comando: set lavastoviglie on
+[07:09] Acceso il dispositivo 'lavastoviglie' alle 07:09
+Comando: set scaldabagno on
+[07:09] Acceso il dispositivo 'scaldabagno' alle 07:09
+Comando: set time 8:00
+[08:00] Spento il dispositivo a ciclo prefissato 'asciugatrice' alle 08:00
+[07:09] Acceso il dispositivo a ciclo prefissato 'lavastoviglie' alle 07:09
+[08:00] L'orario attuale e' 08:00
+Comando: show
+[08:00] Attualmente il sistema ha prodotto 6.500000 kWh e ha consumato 14.000000 kWh. Nello specifico:
+- Il dispositivo 'impianto_fotovoltaico' ha consumato 0.000000 kWh
+- Il dispositivo 'lavatrice' ha consumato 2.000000 kWh
+- Il dispositivo 'lavastoviglie' ha consumato 1.275000 kWh
+- Il dispositivo 'pompa_di_calore+termostato' ha consumato 0.000000 kWh
+- Il dispositivo 'tapparelle_elettriche' ha consumato 0.000000 kWh
+- Il dispositivo 'scaldabagno' ha consumato 0.000000 kWh
+- Il dispositivo 'frigorifero' ha consumato 0.000000 kWh
+- Il dispositivo 'forno_a_microonde' ha consumato 0.000000 kWh
+- Il dispositivo 'asciugatrice' ha consumato 0.500000 kWh
+- Il dispositivo 'televisore' ha consumato 0.000000 kWh
+
+Comando: reset timers
+[08:00] Rimossi tutti i timer
+Comando: reset all
+[00:00] Resettato il sistema
+Comando: show
+[00:00] Attualmente il sistema ha prodotto 3.500000 kWh e ha consumato 0.000000 kWh. Nello specifico:
+- Il dispositivo 'impianto_fotovoltaico' ha consumato 0.000000 kWh
+- Il dispositivo 'lavatrice' ha consumato 0.000000 kWh
+- Il dispositivo 'lavastoviglie' ha consumato 0.000000 kWh
+- Il dispositivo 'pompa_di_calore+termostato' ha consumato 0.000000 kWh
+- Il dispositivo 'tapparelle_elettriche' ha consumato 0.000000 kWh
+- Il dispositivo 'scaldabagno' ha consumato 0.000000 kWh
+- Il dispositivo 'frigorifero' ha consumato 0.000000 kWh
+- Il dispositivo 'forno_a_microonde' ha consumato 0.000000 kWh
+- Il dispositivo 'asciugatrice' ha consumato 0.000000 kWh
+- Il dispositivo 'televisore' ha consumato 0.000000 kWh
+
+Comando: set televisore 5:00
+[00:00] Impostato un timer per il dispositivo a ciclo prefissato 'televisore' dalle 05:00.
+Comando: set time 3:00
+[03:00] L'orario attuale e' 03:00
+Comando: rm televisore
+[03:00] Rimosso il timer dal dispositivo 'televisore'
+Comando: set time 6:00
+[06:00] L'orario attuale e' 06:00
+Comando: exit
